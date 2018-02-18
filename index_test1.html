@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html id="top">
+  <head>
+    <meta charset="utf-8">
+    <title>Test 1</title>
+    <link rel="stylesheet" href="css/css_test1.css">
+  </head>
+
+  <body>
+    <nav id="nav">
+      <a href="#top" class="active" onclick="goTo('#main1')">Main 1</a>
+      <a href="#top" onclick="goTo('#main2')">Main 2</a>
+      <a href="#top" onclick="goTo('#main3')">Main 3</a>
+      <a href="#top" onclick="goTo('#main4')">Main 4</a>
+    </nav>
+    <main class="main1" id="main1">
+      <img src="https://images.pexels.com/photos/122734/pexels-photo-122734.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="" class="ini_image">
+      <br>
+      <a href="#main1-text">Click to go to text main1</a>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <p id="main1-text">
+        <a href="#top" onclick="goTo('#main3')">Go to main 3!</a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </p>
+    </main>
+    <main class="main2 hide" id="main2">
+      <div class="presentation">
+        <p>Hello!</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+    </main>
+    <main class="main3 hide" id="main3">
+      <img src="https://images.pexels.com/photos/13880/86e38cf98c5e3561fd2d7c811434b386.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="" class="ini_image">
+    </main>
+    <main class="main4 hide" id="main4">
+      Main 4!<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <a href="#top" onclick="goTo('#main1')">Link to 1</a>
+    </main>
+  </body>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/js_test1.js">  </script>
+</html>

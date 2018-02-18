@@ -1,0 +1,45 @@
+body{
+  margin: auto 0;
+  text-align: center;
+}
+
+nav{
+  margin: 20px;
+}
+nav a{
+  margin: 10px;
+  border: 1px solid red;
+  color: red;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.active{
+  color: pink;
+  font-size: 14px;
+  border: 1px solid pink;
+}
+
+.hide{
+  display: none;
+}
+main a{
+  color: white;
+}
+.main1{
+  background: blue;
+}
+.main2{
+  background: pink;
+}
+.main3{
+  background: yellow;
+}
+.main4{
+  background: red;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
